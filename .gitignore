@@ -1,0 +1,14 @@
+# ===== backend =====
+backend/node_modules/
+backend/.env
+
+# ===== mobile =====
+mobile/node_modules/**/*
+mobile/.expo/*
+mobile/npm-debug.*
+
+# ===== web =====
+web/node_modules/
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*

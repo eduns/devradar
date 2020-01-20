@@ -1,0 +1,83 @@
+li button.edit-dev {
+    height: 24px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding-inline: 5px;
+    margin-left: 82%;
+    position: relative;
+    color: #8e4dff;
+    background-color: transparent;
+    border: 3px solid #8e4dff;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out
+}
+
+li button.edit-dev:hover {
+    background: #8e4dff;
+    color: #e5e6f0;
+    border: 3px solid transparent;
+}
+
+li button.edit-dev::-moz-focus-inner {
+    border: 0
+}
+
+li.dev-item {
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+    outline: 1px solid #8e4dff
+}
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+li.dev-item header img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%
+}
+
+li.dev-item header .user-info {
+    margin-left: 10px
+}
+
+.user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333
+}
+
+.user-info span {
+    margin-left: 2%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #e5e6f0;
+    margin-top: 2px;
+    background: #8e4dff;
+    padding: 2px 10px;
+    border-radius: 10px;
+    white-space: nowrap
+}
+
+li.dev-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0
+}
+
+li.dev-item a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none
+}
+
+li.dev-item a:hover {
+    color: #5a2ea6
+}
